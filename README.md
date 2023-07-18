@@ -1,2 +1,2 @@
-# site
+# Codeon
 The official Codeon website
