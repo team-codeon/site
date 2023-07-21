@@ -1,5 +1,5 @@
 {
-  "name": "site",
+  "name": "codeon-site",
   "version": "1.0.0",
   "description": "The official Codeon website",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "firebase": "^10.0.0"
+    "firebase": "^8.6.8",
+    "serve": "^14.2.0"
   }
 }
