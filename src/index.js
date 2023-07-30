@@ -18,13 +18,13 @@ const firebaseApp = initializeApp({
 const auth = getAuth(firebaseApp);
 
 
-createUserWithEmailAndPassword(auth, "codeon-site@gmail.com", "code.beyond.limits")
+// createUserWithEmailAndPassword(auth, "codeon-site@gmail.com", "code.beyond.limits")
 
 signInWithEmailAndPassword(auth, "codeon-site@gmail.com", "code.beyond.limits")
   .then((userCredential) => {
     // Signed in 
     const user = userCredential.user;
-    console.log("signed in")
+    console.log(user)
   })
   .catch((error) => {
     const errorCode = error.code;
