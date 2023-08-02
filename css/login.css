@@ -1,0 +1,40 @@
+#incorrect-details-error {
+    visibility: hidden;
+    text-align: center;
+    margin: 0;
+    color: red;
+}
+
+input {
+    font-family: "Nunito", sans-serif;
+    margin: auto;
+    display: block;
+    margin-bottom: 1vh;
+    max-width: 500px;
+    max-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+    border-color: black;
+    background-color: #e3e6b600;
+}
+
+.logotext {
+    user-select: none;
+    margin: 0;
+    text-align: center;
+    font-size: 100px;
+}
+
+button {
+    margin: auto;
+    display: block;
+    font-family: "Nunito", sans-serif;
+    width: 200px;
+    height: 50px;
+    font-size: 35px;
+    background-color: #e2cd80;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}

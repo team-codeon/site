@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Login - Codeon</title>
+        <link rel="stylesheet" type="text/css" href="css/global.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+    </head>
+
+    <body>
+        <h1 class="logotext">&lt;on/&gt;</h1>
+        <form>
+            <input type="text" placeholder="Username" id="username-input-field">
+            <input type="password" placeholder="Password" id="password-input-field">
+            <p id="incorrect-details-error">Incorrect Username or password</p>
+        </form>
+        <div class="login-container">
+            <button onclick="login()" class="login">Login</button>
+        </div>
+        <script src="/js/firebase.js" type="module"></script>
+    </body>
+
+
+</html>
