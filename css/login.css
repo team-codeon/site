@@ -2,7 +2,7 @@
     visibility: hidden;
     text-align: center;
     margin: 0;
-    color: red;
+    color: rgb(209, 92, 92);
 }
 
 input {
@@ -26,7 +26,7 @@ input {
     font-size: 100px;
 }
 
-button {
+.login {
     margin: auto;
     display: block;
     font-family: "Nunito", sans-serif;
@@ -37,4 +37,9 @@ button {
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.login:hover {
+    background-color: #cdcd6c;
 }
